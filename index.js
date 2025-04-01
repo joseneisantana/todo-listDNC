@@ -12,6 +12,14 @@ const removeTask = (taskId) => {
     .removeChild(document.getElementById(taskId));
 };
 
+
+
+
+
+
+
+
+
 const createTaskListItem = (task, checkbox) => {
   const list = document.getElementById('todo-list');
   const toDo = document.createElement('li');
